@@ -1,8 +1,8 @@
 fase,commit_fallo,control_esperado,control_observado,regla_id,archivo_linea,package_resultado,commit_fix,enlace_ejecucion,reporte_artifact
-linea_base,,,,,,,,,
-exp1_lint,,,,,,,,,
-exp2_tests,,,,,,,,,
-exp3_sast,,,,,,,,,
-exp4_secrets,,,,,,,,,
-exp5_sca,,,,,,,,,
-verificacion_final,,,,,,,,,
+linea_base,,lint|tests|sast|secrets|sca,success (#2),,—,success (package),d6d7276690fb19e6a86508c747a3a8765c88f3bb,https://github.com/bermudezkenny03/cloud-forge-ci/actions/runs/40056902853,reporte-*
+exp1_lint,bef322fbd9eefe752990644b1bc9bb03803e2100,lint,failure,Ruff F401,app/calculadora.py (import os),skipped,d536042eb8853acb8a40339779910d028e503a67,https://github.com/bermudezkenny03/cloud-forge-ci/actions/runs/40057172883,reporte-lint
+exp2_tests,b22dfb3f86835afe3c07471ffdd442cbab45adb7,tests,failure,AssertionError test_suma,app/calculadora.py (return a - b),skipped,66e02352e2373796817840e048d71ee5900e9a21,https://github.com/bermudezkenny03/cloud-forge-ci/actions/runs/40057365942,reporte-tests
+exp3_sast,80e5d2616a69a73e69cc8382e8cfd53d47fb1fec,sast,failure,Bandit B307,app/calculadora.py (ejemplo_inseguro/eval),skipped,9e81892cf9263fae64c3c507c535e667ad250128,https://github.com/bermudezkenny03/cloud-forge-ci/actions/runs/40057573075,reporte-sast
+exp4_secrets,168a5de956bedbeccbcfc681e9efc15b00ca5a43,secrets,failure,cloud-forge-demo,app/demo.env,skipped,7c90cbab06da2928da09043575816344168831f7,https://github.com/bermudezkenny03/cloud-forge-ci/actions/runs/40057755182,reporte-secrets
+exp5_sca,053b8620562058b216918139b7dc0525d242ab8c,sca,failure,Trivy HIGH/CRITICAL requests==2.19.1,requirements.txt,skipped,3a90a09dcec14fd59fcf0e63c931db1846d7677b,https://github.com/bermudezkenny03/cloud-forge-ci/actions/runs/40057903368,reporte-sca
+verificacion_final,,lint|tests|sast|secrets|sca|package,success (#12),,—,success (codigo-aprobado),3a90a09dcec14fd59fcf0e63c931db1846d7677b,https://github.com/bermudezkenny03/cloud-forge-ci/actions/runs/40058053764,codigo-aprobado
