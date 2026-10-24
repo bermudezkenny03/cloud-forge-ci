@@ -1,1 +1,2 @@
-# Sin dependencias de runtime: la aplicación usa la biblioteca estándar.
+﻿# Dependencia obsoleta solo para escaneo; no instalar.
+requests==2.19.1
