@@ -1,0 +1,7 @@
+"""Calculadora mínima: suma e interpretación segura de enteros."""
+
+def sumar(a: int, b: int) -> int:
+    return a + b
+
+def interpretar_entero(texto: str) -> int:
+    return int(texto)

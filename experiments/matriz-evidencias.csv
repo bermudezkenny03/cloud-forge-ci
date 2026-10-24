@@ -1,0 +1,8 @@
+fase,commit_fallo,control_esperado,control_observado,regla_id,archivo_linea,package_resultado,commit_fix,enlace_ejecucion,reporte_artifact
+linea_base,,,,,,,,,
+exp1_lint,,,,,,,,,
+exp2_tests,,,,,,,,,
+exp3_sast,,,,,,,,,
+exp4_secrets,,,,,,,,,
+exp5_sca,,,,,,,,,
+verificacion_final,,,,,,,,,

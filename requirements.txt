@@ -1,0 +1,1 @@
+# Sin dependencias de runtime: la aplicación usa la biblioteca estándar.

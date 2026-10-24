@@ -1,0 +1,5 @@
+# Herramientas didácticas del Laboratorio 2.
+# Excluidas explícitamente del SCA de este ejercicio (ver ci/check.sh --skip-files).
+ruff==0.11.2
+pytest==8.3.5
+bandit==1.8.3
