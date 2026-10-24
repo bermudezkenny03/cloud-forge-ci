@@ -6,3 +6,5 @@ def sumar(a: int, b: int) -> int:
 def interpretar_entero(texto: str) -> int:
     return int(texto)
 
+def ejemplo_inseguro():
+    return eval("2 + 3")
