@@ -1,5 +1,4 @@
-﻿import os
-"""Calculadora mÃ­nima: suma e interpretaciÃ³n segura de enteros."""
+﻿"""Calculadora mÃ­nima: suma e interpretaciÃ³n segura de enteros."""
 
 def sumar(a: int, b: int) -> int:
     return a + b
